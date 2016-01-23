@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=380">
+        <title>Reflex Game</title>
+        <link href="style/headers.css" rel="stylesheet" type="text/css" />
+        <link href="style/app.css" rel="stylesheet" type="text/css"/>
+        <link href="style/layout.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" defer src="js/app.js"></script>
+        <style>
+
+            tr, td {
+                border-style: solid;
+                border-width: 0px;
+            }
+
+            #gametable  {
+                width: 100%; /*szélesség*/
+                height: 80%;
+                text-align: center; /*a táblázatban szereplő minden szöveg igazítása, kivéve a thead-et*/
+            }   
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <table id="gametable">
+            <tbody>
+                <tr>
+                    <td id="c1"></td>
+                    <td id="c2"></td>
+                    <td id="c3"></td>
+                    <td id="c4"></td>
+                    <td id="c5"></td>
+                </tr>
+                <tr>
+                    <td id="c6"></td>
+                    <td id="c7"></td>
+                    <td id="c8"></td>
+                    <td id="c9"></td>
+                    <td id="c10"></td>
+                </tr>    
+                <tr>
+                    <td id="c11"></td>
+                    <td id="c12"></td>
+                    <td id="c13"></td>
+                    <td id="c14"></td>
+                    <td id="c15"></td>
+                </tr>    
+                <tr>
+                    <td id="c16"></td>
+                    <td id="c17"></td>
+                    <td id="c18"></td>
+                    <td id="c19"></td>
+                    <td id="c20"></td>
+                </tr>    
+                <tr>
+                    <td id="c21"></td>
+                    <td id="c22"></td>
+                    <td id="c23"></td>
+                    <td id="c24"></td>
+                    <td id="c25"></td>
+                </tr>    
+            <tbody>   
+        </table>
+        <p>Your Score:</p>
+        <p id="score"></p>
+        <p>Your Misses (4 available):</p>
+        <p id="misses"></p>
+    </body>
+</html>

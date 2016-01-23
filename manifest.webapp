@@ -1,0 +1,13 @@
+{
+  "name": "ReflexGame",
+  "description": "A ReflexGame",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/icons/icon-512.png",
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Horvath Adam"
+  },
+  "default_locale": "en"
+}
